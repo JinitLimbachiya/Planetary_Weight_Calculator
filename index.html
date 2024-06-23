@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="/copy.jpg">
+    <script src="mind.js"></script>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <h1>Your Weight on<br>Different Planets</h1>
+
+        <form>
+        
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <br>
+
+            <input type="number" id="weight" name="weight" placeholder="Enter your weight (kg) " required>
+
+            <br>
+
+            <button onClick="calculateWeight(event)">Calculate</button>
+
+        </form>
+
+        <div id = "title"></div>
+        <div id = "results"></div>
+
+    </div>
+ 
+</body>
+</html>
